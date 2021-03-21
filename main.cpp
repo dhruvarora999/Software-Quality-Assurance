@@ -9,7 +9,7 @@
 
 using namespace std;
 
-int findEuclideanDistance(int a, int b){
+float findEuclideanDistance(int a, int b){
     
     float ans = a*a + b*b;
     return pow(ans, 0.5);
